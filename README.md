@@ -1,34 +1,3 @@
-# AngularScaffold
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-------------------------------------
-
 ## 编辑器使用 vscode
 
 #### 安装
@@ -36,18 +5,20 @@ https://code.visualstudio.com/ 下载对应系统的 stable 安装包安装
 
 #### 插件
 
-Project Manager 项目管理
-Debugger for Chrome 调试工具
-Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
-TSLint
-Path Intellisense 路径提示
-GitLens git 工具
-Prettier - Code formatter 格式化工具
-sass
-Beautify 格式化
+- Project Manager 项目管理
+- Debugger for Chrome 调试工具
+- Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+- TSLint
+- Path Intellisense 路径提示
+- GitLens git 工具
+- Prettier - Code formatter 格式化工具
+- sass
+- Beautify 格式化
+- Angular Generator
 
 
 #### 个性化配置
+```
 {
   "workbench.editor.enablePreview": false,
   "git.autofetch": true,
@@ -93,39 +64,37 @@ Beautify 格式化
     "source.fixAll.tslint": true
   }
 }
+```
 
 ## 包管理工具 yarn
-https://yarnpkg.com/zh-Hans/ 下载安装包安装
-或者使用npm install -g yarn，推荐安装包安装
+https://yarnpkg.com/zh-Hans/ 下载安装包安装或者使用 npm install -g yarn，推荐安装包安装
 
 #### yarn 命令
 
+- 添加一个依赖
+  - yarn add [package]
+  - yarn add [package]@[version]
+  - yarn add [package]@[tag]
 
-添加一个依赖
-yarn add [package]
-yarn add [package]@[version]
-yarn add [package]@[tag]
-
-
-更新一个依赖
-yarn upgrade [package]
-yarn upgrade [package]@[version]
-yarn upgrade [package]@[tag]
+- 更新一个依赖
+  - yarn upgrade [package]
+  - yarn upgrade [package]@[version]
+  - yarn upgrade [package]@[tag]
 
 
-移除一个依赖
-yarn remove [package]
+- 移除一个依赖
+  - yarn remove [package]
 
 
-更新依赖
-yarn upgrade-interactive --latest
+- 更新依赖
+  - yarn upgrade-interactive --latest
 
 
 
 ## 工程安装
 
-安装最新的 nodejs 以及 npm
-npm install -g @angular/cli
-npm install –g typescript
-yarn install --network-timeout 1000000
-yarn start
+1. 安装最新的 nodejs 以及 npm
+2. npm install -g @angular/cli
+3. npm install –g typescript
+4. yarn install --network-timeout 1000000
+5. yarn start
