@@ -12,6 +12,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 
+
+import { ngLearningRouter, ngLearningDeclarations } from 'src/app/wooter/ng-learning/ng-learning-router';
+
 @NgModule({
    imports: [
       BrowserModule,
@@ -22,6 +25,7 @@ import { ShippingComponent } from './shipping/shipping.component';
          { path: 'products/:productId', component: ProductDetailsComponent },
          { path: 'cart', component: CartComponent },
          { path: 'shipping', component: ShippingComponent },
+         ...ngLearningRouter,
       ])
    ],
    declarations: [
@@ -31,7 +35,8 @@ import { ShippingComponent } from './shipping/shipping.component';
       ProductAlertsComponent,
       ProductDetailsComponent,
       CartComponent,
-      ShippingComponent
+      ShippingComponent,
+      ...ngLearningDeclarations
    ],
    bootstrap: [
       AppComponent
