@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import * as ts_index from 'src/app/wooter/ts-learning/index';
+import * as tsIndex from 'src/app/wooter/ts-learning/index';
 
 @Component({
   selector: 'app-ts-test-template',
@@ -11,6 +11,6 @@ export class TsTestTemplateComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    const myTsTest = ts_index.myTsTest;
+    const treeShakingDisabled = tsIndex.treeShakingDisabled;
   }
 }
